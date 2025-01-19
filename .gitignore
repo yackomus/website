@@ -1,0 +1,15 @@
+.github/
+
+.DS_Store
+._.DS_Store
+/**/.DS_Store
+/**/._.DS_Store
+
+.vitepress/cache
+node_modules/
+
+/src/data/raw
+/src/data/yks
+/src/economia
+/src/politica
+/src/social

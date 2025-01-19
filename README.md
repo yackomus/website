@@ -1,0 +1,1 @@
+To host a personal website through github pages.
