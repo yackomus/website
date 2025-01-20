@@ -20,14 +20,14 @@ hero:
 features:
   - icon: ""
     title: Gaia
-    details: O básico sobre o território, sua gestão e população residente
+    details: O básico sobre o território, sua gestão e população residente - base para qualquer análise posterior
   - icon: ""
     title: Cronus
-    details: Detalhes, especialmente temporais, sobre assunto específico, selecionado à princípio por eu não ter encontrado os dados claramente expostos em nenhum outro lugar
+    details: Detalhes, especialmente temporais, sobre assuntos específicos, selecionados à princípio por eu não ter encontrado os dados claramente expostos em nenhum outro lugar
   - icon: ""
     title: Mamon
-    details: Informações - pelo menos as oficiais - sobre algumas movimentações de senadores e deputados federais que, apesar de permitidas por lei, podem ser interpretadas como amorais
+    details: Informações - pelo menos as oficiais - sobre algumas movimentações de senadores e deputados federais, que intencionalmente vivem completamente descolados da realidade
   - icon: ""
     title: Hephaestus
-    details: Onde irei reintegrar o previamente destilado de análises das frentes citadas, que foram separadas por razões meramente metodológicas
+    details: Onde irei reintegrar e organizar o que foi previamente destilado das análises dos blocos mencionados, que foram separados por razões meramente metodológicas
 ---
