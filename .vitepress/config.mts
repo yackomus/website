@@ -1,6 +1,4 @@
-// import { defineConfig } from 'vitepress'
 import {defineConfig} from "vitepress";
-
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -19,36 +17,31 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/', activeMatch: '/config/' },
       // { text: 'Examples', link: '/markdown-examples' }
-      { text: 'Sobre', link: '/sobre/', activeMatch: '/config/' },
+      // { text: 'Sobre', link: '/sobre/', activeMatch: '/config/' },
       // { text: 'Gaia', link: 'https://www.gaia.yackomus.com/', activeMatch: '/config/' },
       {
         text: 'Menu',
         items: [
-          { text: 'Gaia', link: 'https://www.gaia.yackomus.com/'},
-          // { text: 'Cronus', link: '/politica/index'},
+          { text: 'Sobre', link: '/sobre/'},
+          { text: 'Atlas', link: '/atlas'},
           // { text: 'Mamon', link: '/economia/index'},
           // { text: 'Hephaestus', link: '/economia/index'}
         ]
       }
     ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Programas Sociais',
-    //     link: '/social/index',
-    //     items: [
-    //       // { text: 'Bar', link: '/social/programas-sociais/bar' },
-    //     ]
-    //   },
-    //   {
-    //     text: 'Política',
-    //     link: '/politica/index',
-    //     items: [
-    //       // { text: 'Time Plot', link: '/politica/timeline-plot/' },
-    //       // { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       // { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   },
+    sidebar: [
+      {
+        text: 'Sobre',
+        link: '/sobre/index',
+      },
+      {
+        text: 'Atlas',
+        // link: '/atlas/index',
+        items: [
+          { text: 'Brasil', link: '/atlas/' },
+        ]
+      },
     //   {
     //     text: 'Economia',
     //     link: '/economia/index',
@@ -58,16 +51,18 @@ export default defineConfig({
     //     //   { text: 'Runtime API Examples', link: '/api-examples' }
     //     ]
     //   }
-    // ],
+    ],
 
     socialLinks: [
+      { icon: 'x', link: 'https://x.com/yackomus' },
       // { icon: 'github', link: 'https://github.com/yks-yackomus' },
-      { icon: 'instagram', link: 'https://instagram.com/yackomus' }
+      { icon: 'instagram', link: 'https://instagram.com/yackomus' },
+      
     ],
 
     footer: {
-      message: 'MIT License',
-      copyright: 'Copyright © 2025 Thiago Oliveira',
+      // message: 'MIT License',
+      copyright: 'Copyright © 2025 Yackomus',
     },
 
     lastUpdated: {

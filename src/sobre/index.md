@@ -3,7 +3,7 @@
 
 Um **inconformado paciente** talvez seja a melhor descrição de quem escreve esses parágrafos, sendo a parte inconformada representada pela profunda limitação em minha capacidade de interpretar e entender o estado de coisas, e a parte paciente, pelo sentimento de que essa incerteza e incompletude é também elemento estrutural da realidade que experimentamos e sobre a qual agimos.
 
-Escrever ajudar a pensar, a reconhecer que sabemos muito pouco e que com frequência atribuímos nossos os pensamentos que recebemos de outra pessoa, e ajuda também a realizar a nossa **liberdade** – que somente passa a existir à partir do momento em que a exercemos e a tornamos um ato.
+Escrever ajuda a pensar, a reconhecer que sabemos muito pouco e que com frequência atribuímos nossos os pensamentos que recebemos de outra pessoa, e ajuda também a realizar a nossa **liberdade** – que somente passa a existir à partir do momento em que a exercemos e a tornamos um ato.
 
 Transcrevi aqui uma coletânea de frases que anotei ao longo do tempo, sendo as de Louis Lavelle minhas mais recentes leituras, as de Guimarães Rosa representando o meu autor brasileiro favorito, e uma miscelânea de outras - que ainda irei complementar à medida que o tempo permitir.
 
@@ -177,9 +177,7 @@ Quero sombra? Quero éco? Quero cão? Não.
 
 :::info Priest Noah, Dark
 > It's good that he raised you to question things — but every now and then it's good to questions those who question things.
-:::
 
-:::info Priest Noah, Dark
 > The truth is a strange thing. You can try to suppress it, but it will always find its way back to the surface.
 :::
 

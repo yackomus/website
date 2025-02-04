@@ -10,6 +10,10 @@ node_modules/
 
 /src/data/raw
 /src/data/yks
-/src/economia
-/src/politica
-/src/social
+/src/cronus
+/src/mamon
+/src/hephaestus
+/src/assets
+/src/public/raw
+
+**/.ipynb_checkpoints
