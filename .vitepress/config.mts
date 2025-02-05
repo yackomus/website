@@ -30,28 +30,28 @@ export default defineConfig({
       }
     ],
 
-    sidebar: [
-      {
-        text: 'Sobre',
-        link: '/sobre/index',
-      },
-      {
-        text: 'Atlas',
-        // link: '/atlas/index',
-        items: [
-          { text: 'Brasil', link: '/atlas/' },
-        ]
-      },
+    // sidebar: [
     //   {
-    //     text: 'Economia',
-    //     link: '/economia/index',
+    //     text: 'Sobre',
+    //     link: '/sobre/index',
+    //   },
+    //   {
+    //     text: 'Atlas',
+    //     // link: '/atlas/index',
     //     items: [
-    //     //   { text: 'Bolsa Família', link: '/markdown-examples' },
-    //     //   { text: 'Markdown Examples', link: '/markdown-examples' },
-    //     //   { text: 'Runtime API Examples', link: '/api-examples' }
+    //       { text: 'Brasil', link: '/atlas/' },
     //     ]
-    //   }
-    ],
+    //   },
+    // //   {
+    // //     text: 'Economia',
+    // //     link: '/economia/index',
+    // //     items: [
+    // //     //   { text: 'Bolsa Família', link: '/markdown-examples' },
+    // //     //   { text: 'Markdown Examples', link: '/markdown-examples' },
+    // //     //   { text: 'Runtime API Examples', link: '/api-examples' }
+    // //     ]
+    // //   }
+    // ],
 
     socialLinks: [
       { icon: 'x', link: 'https://x.com/yackomus' },
