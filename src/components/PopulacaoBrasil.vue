@@ -1,15 +1,8 @@
 <script setup>
 import * as Plot from "@observablehq/plot";
-import PlotFigure from "./PlotRender.js";
 import * as d3 from "d3";
-import {ref, shallowRef, onMounted} from "vue";
-import popBRA from "../data/pop-brasil.ts";
-
-const popBR = shallowRef([]);
-
-onMounted(() => {
-  d3.csv("../data/pop-brasil.csv", d3.autoType).then((data) => (popBR.value = data));
-});
+import PlotFigure from "./PlotRender.js";
+import datasource from "../data/pop-brasil.ts";
 </script>
 
 <template>
@@ -39,7 +32,7 @@ onMounted(() => {
       },
 
       marks: [
-      Plot.barY(popBR, {
+      Plot.barY(datasource, {
           x: 'aaaa',
           y1:160*1e6,
           y2: 'populacao',
@@ -67,7 +60,7 @@ onMounted(() => {
         tickFormat: d3.format('.2s'), 
       }),
 
-      Plot.text(popBR, {
+      Plot.text(datasource, {
       text: d => `${Math.round(d.populacao / 1000000)}`,
       rotate: -90,
       y: 'populacao',

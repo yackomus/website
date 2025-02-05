@@ -1,14 +1,7 @@
 <script setup>
 import * as Plot from "@observablehq/plot";
 import PlotFigure from "./PlotRender.js";
-import * as d3 from "d3";
-import {ref, shallowRef, onMounted} from "vue";
-
-const datasource = shallowRef([]);
-
-onMounted(() => {
-  d3.csv("../data/p-municipios-por-estado.csv", d3.autoType).then((data) => (datasource.value = data));
-});
+import datasource from "../data/p-municipios-por-estado.ts";
 </script>
 
 <template>

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.soS5QTu1.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hephaestus/index.md","filePath":"hephaestus/index.md","lastUpdated":null}'),s={name:"hephaestus/index.md"};function n(r,o,d,c,p,i){return a(),t("div")}const l=e(s,[["render",n]]);export{h as __pageData,l as default};
