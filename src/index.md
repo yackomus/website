@@ -20,14 +20,14 @@ hero:
 features:
   - icon: ""
     title: Atlas
-    details: O básico sobre o território, sua gestão e população residente - com foco particular em Minas Gerais
+    details: O básico sobre o território, sua gestão e população residente
   - icon: ""
     title: Cronus
-    details: Detalhes, especialmente temporais, sobre assuntos específicos, selecionados à princípio por eu não ter encontrado os dados claramente expostos em nenhum outro lugar
+    details: Detalhes, especialmente temporais, sobre assuntos específicos
   - icon: ""
     title: Mamon
-    details: Informações - pelo menos as oficiais - sobre algumas movimentações de senadores e deputados federais, que intencionalmente vivem completamente descolados da realidade
+    details: Informações - pelo menos as oficiais - sobre algumas movimentações de senadores e deputados federais
   - icon: ""
     title: Hephaestus
-    details: Integração do que foi previamente organizado nas análises dos blocos anteriores, que foram separados por razões puramente metodológicas
+    details: Integração do que foi previamente organizado nas análises dos blocos anteriores
 ---

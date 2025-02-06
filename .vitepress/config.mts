@@ -10,25 +10,25 @@ export default defineConfig({
   srcDir: 'src',
   outDir: './docs',
   base: '/',
-  lastUpdated: true,
+  lastUpdated: false,
   themeConfig: {
-    logo: '/material-symbols-light--home-app-logo.svg',
+    // logo: '/material-symbols-light--home-app-logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: 'Home', link: '/', activeMatch: '/config/' },
-      // { text: 'Sobre', link: '/sobre' },
-      // { text: 'Atlas', link: '/atlas'},
+      { text: 'Home', link: '/'},
+      { text: 'Sobre', link: '/sobre'},
+      { text: 'Atlas', link: '/atlas'},
       // { text: 'Gaia', link: 'https://www.gaia.yackomus.com/', activeMatch: '/config/' },
-      {
-        text: 'Menu',
-        items: [
-          { text: 'Home', link: '/'},
-          { text: 'Sobre', link: '/sobre' },
-          { text: 'Atlas', link: '/atlas'},
-          // { text: 'Mamon', link: '/economia/index'},
-          // { text: 'Hephaestus', link: '/economia/index'}
-        ]
-      }
+      // {
+      //   text: 'Menu',
+      //   items: [
+      //     { text: 'Home', link: '/'},
+      //     { text: 'Sobre', link: '/sobre' },
+      //     { text: 'Atlas', link: '/atlas'},
+      //     // { text: 'Mamon', link: '/economia/index'},
+      //     // { text: 'Hephaestus', link: '/economia/index'}
+      //   ]
+      // }
     ],
 
     // sidebar: [
