@@ -14,7 +14,7 @@ import datasource from "../data/p-municipios-por-estado.ts";
       color: {
         legend: true,
         range: ['#3ca951', '#ff725C', '#4269D0', '#6cc5b0', '#efb118'],
-        domain: ['Norte', 'Nordeste', 'Sudeste', 'Sul', 'Centro-Oeste']
+        domain: ['Norte', 'Nordeste', 'Sudeste', 'Sul', 'Centro-Oeste'],
       },
 
       marks: [

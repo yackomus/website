@@ -9,7 +9,7 @@ import datasource from "../data/p-populacao-por-estado.ts";
   <PlotFigure
     :options="{
       marginLeft: 30,
-      marginRight: 33,
+      marginRight: 20,
       marginTop:40,
 
       color: {
@@ -46,9 +46,9 @@ import datasource from "../data/p-populacao-por-estado.ts";
           rotate: 0,
           y: 'uf',
           x: 'populacao',
-          textAnchor: 'start',
+          textAnchor: 'end',
           // sort: { y: 'x', reverse: true, limit: 24 },
-          dx: 3,
+          dx: -3,
           dy: 0,
           fontSize: 12,
         }),

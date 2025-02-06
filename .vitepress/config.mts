@@ -15,14 +15,15 @@ export default defineConfig({
     logo: '/material-symbols-light--home-app-logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/', activeMatch: '/config/' },
-      // { text: 'Examples', link: '/markdown-examples' }
-      // { text: 'Sobre', link: '/sobre/', activeMatch: '/config/' },
+      // { text: 'Home', link: '/', activeMatch: '/config/' },
+      // { text: 'Sobre', link: '/sobre' },
+      // { text: 'Atlas', link: '/atlas'},
       // { text: 'Gaia', link: 'https://www.gaia.yackomus.com/', activeMatch: '/config/' },
       {
         text: 'Menu',
         items: [
-          { text: 'Sobre', link: '/sobre/'},
+          { text: 'Home', link: '/'},
+          { text: 'Sobre', link: '/sobre' },
           { text: 'Atlas', link: '/atlas'},
           // { text: 'Mamon', link: '/economia/index'},
           // { text: 'Hephaestus', link: '/economia/index'}
@@ -54,7 +55,7 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      { icon: 'x', link: 'https://x.com/yackomus' },
+      // { icon: 'x', link: 'https://x.com/yackomus' },
       // { icon: 'github', link: 'https://github.com/yks-yackomus' },
       { icon: 'instagram', link: 'https://instagram.com/yackomus' },
       
@@ -65,26 +66,26 @@ export default defineConfig({
       copyright: 'Copyright © 2025 Yackomus',
     },
 
-    lastUpdated: {
-      // text: 'Atualizado',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
-    },
+    // lastUpdated: {
+    //   // text: 'Atualizado',
+    //   formatOptions: {
+    //     dateStyle: 'full',
+    //     timeStyle: 'medium'
+    //   }
+    // },
 
     docFooter: {
       prev: 'Previous',
       next: 'Next'
     },
 
-    outline: {
-      label: 'Index'
-    },
+    // outline: {
+    //   label: 'Index'
+    // },
 
-    darkModeSwitchLabel: 'Lumen',
-    sidebarMenuLabel: 'Temas',
-    returnToTopLabel: 'Top',
+    // darkModeSwitchLabel: 'Lumen',
+    // sidebarMenuLabel: 'Temas',
+    // returnToTopLabel: 'Top',
     externalLinkIcon: true,
 
   },

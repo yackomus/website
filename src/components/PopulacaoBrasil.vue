@@ -65,9 +65,9 @@ import datasource from "../data/pop-brasil.ts";
       rotate: -90,
       y: 'populacao',
       x: 'aaaa',
-      textAnchor: 'start',
+      textAnchor: 'end',
       dx: 0,
-      dy: -4,
+      dy: 4,
       fontSize: 12,
       }),
 
