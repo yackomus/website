@@ -8,7 +8,7 @@ outline: deep
 hero:
   name: "Yackomus"
   # text: "A VitePress Site - Yackomus"
-  tagline: Uma tentativa pessoal de aprofundar o entendimento sobre alguns dos desafios sociais, econômicos e políticos do Brasil.
+  tagline: Eu estou preocupado em entender algumas coisas
   # actions:
   #   - theme: brand
   #     text: Markdown Examples
