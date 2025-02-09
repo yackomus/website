@@ -13,19 +13,19 @@ import PopulacaoPorEstado from '../components/PopulacaoPorEstado.vue';
 
 ## Municípios
 
-:::info MG e SP têm 27% dos 5570 municípios brasileiros
-<br />
+:::info Municípios
+<!-- <br /> -->
 <MunicipiosPorEstado />
 :::
 
 ## População
 
-:::info 212.6 milhões foi a população brasileira estimada em 2024
+:::info População
 <br />
 <PopulacaoBrasil />
 :::
 
-:::info SP, MG e RJ formaram 40% da população brasileira em 2024
-<br />
+:::info População
+<!-- <br /> -->
 <PopulacaoPorEstado />
 :::

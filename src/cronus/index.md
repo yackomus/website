@@ -13,7 +13,7 @@ import BolsaFamiliaBrasilMensal from '../components/BolsaFamiliaBrasilMensal.vue
 
 ## Bolsa Família
 
-:::info Volumes mensais de pagamento com aumentos significativos nos últimos anos
-<br />
+:::info Bolsa Família
+<!-- <br /> -->
 <BolsaFamiliaBrasilMensal />
 :::

@@ -23,7 +23,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
       },
 
       y : {
-        label:'Pagamentos mensais do auxílio, em bilhões de reais',
+        label:'Pagamentos mensais',
         // tickFormat: d3.format('.2s'), 
         type: 'linear',
         grid: true,
@@ -82,7 +82,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
       Plot.axisY({
         fontSize: 14,
         // tickFormat: d3.format('.2s'), 
-        tickFormat: (x) => x == 0 ? `0` : `${Math.floor(x/1e9)}bi`,
+        tickFormat: (x) => x == 0 ? `0` : `${Math.floor(x/1e9)}B`,
       }),
 
     //   Plot.text(datasource, {
