@@ -12,12 +12,13 @@ export default defineConfig({
   base: '/',
   lastUpdated: false,
   themeConfig: {
-    // logo: '/material-symbols-light--home-app-logo.svg',
+    logo: '/yackomus-subject.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/'},
       { text: 'Sobre', link: '/sobre'},
       { text: 'Atlas', link: '/atlas'},
+      { text: 'Cronus', link: '/cronus'},
       // { text: 'Gaia', link: 'https://www.gaia.yackomus.com/', activeMatch: '/config/' },
       // {
       //   text: 'Menu',

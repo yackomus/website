@@ -4,11 +4,12 @@ layout: home
 lastupdate: true
 outline: deep
 
-
 hero:
   name: "Yackomus"
   # text: "A VitePress Site - Yackomus"
   tagline: Eu estou preocupado em entender algumas coisas
+  image:
+    src: /yackomus-subject.png
   # actions:
   #   - theme: brand
   #     text: Markdown Examples
