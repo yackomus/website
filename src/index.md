@@ -21,13 +21,13 @@ hero:
 features:
   - icon: ""
     title: Atlas
-    details: O básico sobre o território, sua gestão e população residente
+    details: O território, sua gestão e população residente
   - icon: ""
     title: Cronus
-    details: Detalhes, especialmente temporais, sobre assuntos específicos
+    details: Detalhes, especialmente temporais, sobre tópicos diversos
   - icon: ""
     title: Mamon
-    details: Informações - pelo menos as oficiais - sobre algumas movimentações de senadores e deputados federais
+    details: Informações, selecionadas em caráter de amostra infinitesimal, sobre o descaso de senadores e deputados federais com o gasto do dinheiro que somos impostos a lhes pagar
   - icon: ""
     title: Hephaestus
     details: Integração do que foi previamente organizado nas análises dos blocos anteriores

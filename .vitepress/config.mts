@@ -58,13 +58,13 @@ export default defineConfig({
     socialLinks: [
       // { icon: 'x', link: 'https://x.com/yackomus' },
       // { icon: 'github', link: 'https://github.com/yks-yackomus' },
-      { icon: 'instagram', link: 'https://instagram.com/yackomus' },
+      // { icon: 'instagram', link: 'https://instagram.com/yackomus' },
       
     ],
 
     footer: {
       // message: 'MIT License',
-      copyright: 'Copyright © 2025 Yackomus',
+      copyright: 'Copyright © 2025 Thiago Oliveira',
     },
 
     // lastUpdated: {
