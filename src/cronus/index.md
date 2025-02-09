@@ -13,7 +13,7 @@ import BolsaFamiliaBrasilMensal from '../components/BolsaFamiliaBrasilMensal.vue
 
 ## Bolsa Família
 
-:::info Houve aumentos significativos no volume de pagamentos durante a implementação durante a vigência do Auxílio Brasil e na transição para o Novo Bolsa Família
+:::info Volumes mensais de pagamento com aumentos significativos nos últimos anos
 <br />
 <BolsaFamiliaBrasilMensal />
 :::
