@@ -23,7 +23,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
       },
 
       y : {
-        label:'Pagamentos mensais',
+        label:'Pagamentos do Bolsa Família, em bilhões de reais por mês',
         // tickFormat: d3.format('.2s'), 
         type: 'linear',
         grid: true,
@@ -32,7 +32,10 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
       },
 
       color: {
-        legend: true
+        legend: true,
+        // range: ['#ffed6f', '#80b1d3', '#fb8072'], // set3
+        range: ['#e6ab02', '#7570b3', '#e7298a'], // dark2
+        domain: ['Bolsa Família', 'Auxílio Brasil', 'Novo Bolsa Família'],
       },
 
       marks: [

@@ -1,5 +1,5 @@
-![Carl Spitzweg: The Hermit in front of His Retreat](/the-hermit-in-front-of-his-retreat-carl-spitzweg.png)
-*The Hermit in front of His Retreat, by Carl Spitzweg*
+![Sandro Botticelli: La Calumnia de Apeles](/Sandro_Botticelli_La_calumnia_de_Apeles.jpg)
+*La Calumnia de Apeles, por Sandro Botticelli*
 
 Um **inconformado paciente** talvez seja a melhor descrição de quem escreve esses parágrafos, sendo a parte inconformada representada pela profunda limitação em minha capacidade de interpretar e entender o estado de coisas, e a parte paciente, pelo sentimento de que essa incerteza e incompletude é também elemento estrutural da realidade que experimentamos e sobre a qual agimos.
 

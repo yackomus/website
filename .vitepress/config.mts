@@ -64,7 +64,7 @@ export default defineConfig({
 
     footer: {
       // message: 'MIT License',
-      copyright: 'Copyright © 2025 Thiago Oliveira',
+      copyright: 'Copyright © 2025 Yackomus',
     },
 
     // lastUpdated: {

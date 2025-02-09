@@ -9,10 +9,6 @@ import BolsaFamiliaBrasilMensal from '../components/BolsaFamiliaBrasilMensal.vue
 
 </script>
 
-# Programas Sociais
-
-## Bolsa Família
-
 :::info Bolsa Família
 <!-- <br /> -->
 <BolsaFamiliaBrasilMensal />

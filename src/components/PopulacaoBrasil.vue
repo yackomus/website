@@ -23,7 +23,7 @@ import datasource from "../data/pop-brasil.ts";
       },
 
       y : {
-        label:'População brasileira',
+        label:'População brasileira, em milhões de habitantes',
         tickFormat: d3.format('.2s'), 
         type: 'linear',
         grid: true,

@@ -9,16 +9,10 @@ import MunicipiosPorEstado from '../components/MunicipiosPorEstado.vue';
 import PopulacaoPorEstado from '../components/PopulacaoPorEstado.vue';
 </script>
 
-# Brasil
-
-## Municípios
-
-:::info Municípios
+:::info Território
 <!-- <br /> -->
 <MunicipiosPorEstado />
 :::
-
-## População
 
 :::info População
 <br />

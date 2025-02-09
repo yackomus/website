@@ -31,7 +31,7 @@ import datasource from "../data/p-populacao-por-estado.ts";
         Plot.axisX({
           anchor:'top',
           labelAnchor:'left',
-          label: 'População por unidade federativa em 2024',
+          label: 'População estimada por unidade federativa em 2024',
           labelOffset:40,
           fontSize: 14,
           tickFormat: format(',.2s'),

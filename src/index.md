@@ -7,7 +7,7 @@ outline: deep
 hero:
   name: "Yackomus"
   # text: "A VitePress Site - Yackomus"
-  tagline: Eu estou preocupado em entender algumas coisas
+  tagline: Eu estou preocupado em entender
   image:
     src: /yackomus-subject.png
   # actions:
