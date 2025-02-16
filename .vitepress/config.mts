@@ -17,19 +17,19 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/'},
       { text: 'Sobre', link: '/sobre'},
-      { text: 'Atlas', link: '/atlas'},
-      { text: 'Cronus', link: '/cronus'},
+      // { text: 'Atlas', link: '/atlas'},
+      // { text: 'Cronus', link: '/cronus'},
       // { text: 'Gaia', link: 'https://www.gaia.yackomus.com/', activeMatch: '/config/' },
-      // {
-      //   text: 'Menu',
-      //   items: [
-      //     { text: 'Home', link: '/'},
-      //     { text: 'Sobre', link: '/sobre' },
-      //     { text: 'Atlas', link: '/atlas'},
-      //     // { text: 'Mamon', link: '/economia/index'},
-      //     // { text: 'Hephaestus', link: '/economia/index'}
-      //   ]
-      // }
+      {
+        text: 'Menu',
+        items: [
+          { text: 'Atlas', link: '/atlas'},
+          { text: 'Cronus', link: '/cronus'},
+          { text: 'Mamon', link: '/mamon'},
+          // { text: 'Mamon', link: '/economia/index'},
+          // { text: 'Hephaestus', link: '/economia/index'}
+        ]
+      }
     ],
 
     // sidebar: [
