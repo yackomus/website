@@ -10,12 +10,12 @@ import datasource from "../data/p-uf-partido-deputado-mandato.ts";
     :options="{
         marginLeft: 120,
         marginBottom:40,
-        x: { domain:[0,100] , grid:true},
+        x: { domain:[0,100], grid:true},
         y: { label: null },
         color: { label: true, legend: true, scheme: 'Turbo', type: 'categorical' },
         marks: [
             Plot.barX(datasource, {
-            y: 'siglaUf',
+            y: 'siglaPartido',
             x: 1,
             inset: 0.8,
             fill: 'numMandatos',
@@ -23,15 +23,16 @@ import datasource from "../data/p-uf-partido-deputado-mandato.ts";
             sort: {
                 y: 'x',
                 order: 'descending'
-            },
+            }
             }),
             Plot.ruleX([0]),
             Plot.axisX({
               fontSize:14,
-              label: 'Número de deputados federais por unidade federativa',
+              label: 'Número de deputados federais por partido político',
               labelAnchor:'center',
               ticks:10,
               // labelOffset:45,
+
             }),
             Plot.axisY({
               fontSize:14
