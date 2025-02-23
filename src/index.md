@@ -7,7 +7,7 @@ outline: deep
 hero:
   name: "Yackomus"
   # text: "A VitePress Site - Yackomus"
-  tagline: Eu estou preocupado em entender
+  tagline: 
   image:
     src: /yackomus-subject.png
   # actions:
@@ -27,7 +27,7 @@ features:
     details: Detalhes, especialmente temporais, sobre tópicos diversos
   - icon: ""
     title: Mamon
-    details: Informações, selecionadas em caráter de amostra infinitesimal, sobre o descaso de senadores e deputados federais com o gasto do dinheiro que somos impostos a lhes pagar
+    details: Deputados federais, Senadores e o descaso que demonstram com os cidadãos de bem
   - icon: ""
     title: Hephaestus
     details: Integração do que foi previamente organizado nas análises dos blocos anteriores
