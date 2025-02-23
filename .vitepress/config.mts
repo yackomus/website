@@ -10,7 +10,7 @@ export default defineConfig({
   srcDir: 'src',
   outDir: './docs',
   base: '/',
-  lastUpdated: false,
+  lastUpdated: true,
   themeConfig: {
     logo: '/yackomus-subject.png',
     // https://vitepress.dev/reference/default-theme-config
