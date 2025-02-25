@@ -27,7 +27,7 @@ features:
     details: Detalhes, especialmente temporais, sobre tópicos diversos
   - icon: ""
     title: Mamon
-    details: Deputados federais, Senadores e o descaso que demonstram com os cidadãos de bem
+    details: Deputados federais, Senadores, e o descaso com o cidadão de bem e com o futuro do país
   - icon: ""
     title: Hephaestus
     details: Integração do que foi previamente organizado nas análises dos blocos anteriores

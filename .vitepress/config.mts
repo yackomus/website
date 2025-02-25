@@ -10,26 +10,29 @@ export default defineConfig({
   srcDir: 'src',
   outDir: './docs',
   base: '/',
-  lastUpdated: true,
+  lastUpdated: false,
   themeConfig: {
     logo: '/yackomus-subject.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/'},
-      { text: 'Sobre', link: '/sobre'},
+      // { text: 'Home', link: '/'},
+      // { text: 'Sobre', link: '/sobre'},
+      { text: 'Atlas', link: '/atlas'},
+      { text: 'Cronus', link: '/cronus'},
+      { text: 'Mamon', link: '/mamon'},
       // { text: 'Atlas', link: '/atlas'},
       // { text: 'Cronus', link: '/cronus'},
       // { text: 'Gaia', link: 'https://www.gaia.yackomus.com/', activeMatch: '/config/' },
-      {
-        text: 'Menu',
-        items: [
-          { text: 'Atlas', link: '/atlas'},
-          { text: 'Cronus', link: '/cronus'},
-          { text: 'Mamon', link: '/mamon'},
-          // { text: 'Mamon', link: '/economia/index'},
-          // { text: 'Hephaestus', link: '/economia/index'}
-        ]
-      }
+      // {
+      //   text: 'Menu',
+      //   items: [
+      //     { text: 'Atlas', link: '/atlas'},
+      //     { text: 'Cronus', link: '/cronus'},
+      //     { text: 'Mamon', link: '/mamon'},
+      //     // { text: 'Mamon', link: '/economia/index'},
+      //     // { text: 'Hephaestus', link: '/economia/index'}
+      //   ]
+      // }
     ],
 
     // sidebar: [
@@ -56,9 +59,9 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      // { icon: 'x', link: 'https://x.com/yackomus' },
+      { icon: 'instagram', link: 'https://instagram.com/yackomus' },
+      { icon: 'x', link: 'https://x.com/yackomus' },
       // { icon: 'github', link: 'https://github.com/yks-yackomus' },
-      // { icon: 'instagram', link: 'https://instagram.com/yackomus' },
       
     ],
 
