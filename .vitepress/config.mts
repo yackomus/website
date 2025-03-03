@@ -1,4 +1,5 @@
 import {defineConfig} from "vitepress";
+import tailwindcss from "@tailwindcss/vite";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,18 +12,13 @@ export default defineConfig({
   outDir: './docs',
   base: '/',
   lastUpdated: false,
+  cleanUrls: true,
   themeConfig: {
     logo: '/yackomus-subject.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: 'Home', link: '/'},
       // { text: 'Sobre', link: '/sobre'},
-      { text: 'Atlas', link: '/atlas'},
-      { text: 'Cronus', link: '/cronus'},
-      { text: 'Mamon', link: '/mamon'},
-      // { text: 'Atlas', link: '/atlas'},
-      // { text: 'Cronus', link: '/cronus'},
-      // { text: 'Gaia', link: 'https://www.gaia.yackomus.com/', activeMatch: '/config/' },
+      { text: 'Blog', link: 'https://www.blog.yackomus.com/', activeMatch: '/config/' },
       // {
       //   text: 'Menu',
       //   items: [
@@ -35,11 +31,63 @@ export default defineConfig({
       // }
     ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Sobre',
-    //     link: '/sobre/index',
-    //   },
+    sidebar: [
+      {
+        text: 'População',
+        // link: '/atlas',
+        items: [
+          { 
+            text: 'Brasil',
+            link: '/atlas',
+            // items: [
+            //   { text: 'Minas Gerais', link: '/atlas' },
+            // ],
+          },
+        ]
+      },
+
+      {
+        text: 'Território',
+        // link: '/atlas',
+        items: [
+          { 
+            text: 'Municípios',
+            link: '/territorio',
+            items: [
+              { text: 'Brasil', link: '/atlas' },
+            ],
+          },
+        ]
+      },
+
+      {
+        text: 'Programas Sociais',
+        // link: '/atlas',
+        items: [
+          { 
+            text: 'Bolsa Família',
+            // link: '/territorio',
+            items: [
+              { text: 'Brasil', link: '/cronus' },
+            ],
+          },
+        ]
+      },
+
+      {
+        text: '9º Círculo',
+        // link: '/atlas',
+        items: [
+          { 
+            text: 'Deputados Federais',
+            // link: '/territorio',
+            items: [
+              { text: 'Brasil', link: '/mamon' },
+            ],
+          },
+        ]
+      },
+
     //   {
     //     text: 'Atlas',
     //     // link: '/atlas/index',
@@ -56,12 +104,12 @@ export default defineConfig({
     // //     //   { text: 'Runtime API Examples', link: '/api-examples' }
     // //     ]
     // //   }
-    // ],
+    ],
 
     socialLinks: [
       { icon: 'instagram', link: 'https://instagram.com/yackomus' },
+      { icon: 'youtube', link: 'https://youtube.com/yackomus' },
       { icon: 'x', link: 'https://x.com/yackomus' },
-      // { icon: 'github', link: 'https://github.com/yks-yackomus' },
       
     ],
 

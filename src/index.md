@@ -1,8 +1,9 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-lastupdate: true
+lastupdate: false
 outline: deep
+markdownStyles: true
 
 hero:
   name: "Yackomus"

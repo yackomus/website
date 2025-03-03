@@ -8,11 +8,11 @@ import datasource from "../data/pop-brasil.ts";
 <template>
   <PlotFigure
     :options="{
-      height: 300,
+      // height: 300,
       marginLeft:50,
       marginRight: 0,
       marginBottom: 40,
-      marginTop: 20,
+      marginTop: 30,
 
       x : {
       label:null,

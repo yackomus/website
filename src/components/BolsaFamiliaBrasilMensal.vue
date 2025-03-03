@@ -8,9 +8,10 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
 <template>
   <PlotFigure
     :options="{
-      height: 300,
+      // height: 300,
+      // width:1200,
       marginLeft:42,
-      marginRight: 0,
+      marginRight: 30,
       marginBottom: 40,
       marginTop: 33,
 
@@ -64,6 +65,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
         //   y1:160*1e6,
           y: 'valor',
           opacity:1,
+          strokeWidth:1.2,
           // channels: {
           //     População: 'populacao'
           // },
@@ -79,11 +81,13 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
 
       Plot.axisX({
         fontSize: 14,
-        // ticks: 10,
+        nice:true,
+        // ticks: 20,
       }),
 
       Plot.axisY({
         fontSize: 14,
+        labelAnchor: 'top',
         // tickFormat: d3.format('.2s'), 
         tickFormat: (x) => x == 0 ? `0` : `${Math.floor(x/1e9)}B`,
       }),
