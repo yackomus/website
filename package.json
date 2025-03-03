@@ -12,7 +12,6 @@
     "@observablehq/framework": "^1.13.0",
     "@observablehq/inputs": "^0.12",
     "@observablehq/plot": "^0.6.16",
-    "@tailwindcss/vite": "^4.0.9",
     "canvas": "^2.0.0",
     "d3": "^7.9.0",
     "d3-dsv": "^3.0.1",
@@ -24,13 +23,11 @@
     "isoformat": "^0.2.0",
     "jsdom": "^24.0.0",
     "prettier": "~3.0.0",
-    "tailwindcss": "^4.0.9",
     "vitepress": "^1.5.0"
   },
   "devDependencies": {
     "@codesandbox/vue-preview": "^0.1.1-alpha.16",
     "@observablehq/runtime": "^5.7.3",
-    "@tailwindcss/typography": "^0.5.14",
     "@types/d3": "^7.4.0",
     "@types/markdown-it": "^12.2.3",
     "@types/mocha": "^10.0.1",

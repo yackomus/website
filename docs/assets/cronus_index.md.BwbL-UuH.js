@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n}from"./chunks/framework.soS5QTu1.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"cronus/index.md","filePath":"cronus/index.md","lastUpdated":null}'),a={name:"cronus/index.md"};function r(o,s,c,d,i,p){return n(),t("div")}const m=e(a,[["render",r]]);export{l as __pageData,m as default};
