@@ -18,23 +18,33 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       // { text: 'Sobre', link: '/sobre'},
-      { text: 'Blog', link: 'https://www.blog.yackomus.com/', activeMatch: '/config/' },
-      // {
-      //   text: 'Menu',
-      //   items: [
-      //     { text: 'Atlas', link: '/atlas'},
-      //     { text: 'Cronus', link: '/cronus'},
-      //     { text: 'Mamon', link: '/mamon'},
-      //     // { text: 'Mamon', link: '/economia/index'},
-      //     // { text: 'Hephaestus', link: '/economia/index'}
-      //   ]
-      // }
+      { 
+        text: 'Blog', 
+        link: 'https://www.blog.yackomus.com/', 
+        target: '_self', 
+        activeMatch: '/config/'
+    
+      },
+
+      { 
+        text: 'Dados', 
+        items: [
+          {text:'População',link: '/atlas',activeMatch: '/config/'},
+          {text:'Território',link: '/territorio',activeMatch: '/config/'},
+          {text:'Programas Sociais',link: '/cronus',activeMatch: '/config/'},
+          {text:'9º Círculo',link: '/mamon',activeMatch: '/config/'},
+        ],
+        
+    
+      },
+
     ],
 
     sidebar: [
       {
         text: 'População',
         // link: '/atlas',
+        // collapsed: false,
         items: [
           { 
             text: 'Brasil',
@@ -48,13 +58,14 @@ export default defineConfig({
 
       {
         text: 'Território',
+        // collapsed: false,
         // link: '/atlas',
         items: [
           { 
             text: 'Municípios',
-            link: '/territorio',
+            // link: '/territorio',
             items: [
-              { text: 'Brasil', link: '/atlas' },
+              { text: 'Brasil', link: '/territorio' },
             ],
           },
         ]
@@ -88,22 +99,6 @@ export default defineConfig({
         ]
       },
 
-    //   {
-    //     text: 'Atlas',
-    //     // link: '/atlas/index',
-    //     items: [
-    //       { text: 'Brasil', link: '/atlas/' },
-    //     ]
-    //   },
-    // //   {
-    // //     text: 'Economia',
-    // //     link: '/economia/index',
-    // //     items: [
-    // //     //   { text: 'Bolsa Família', link: '/markdown-examples' },
-    // //     //   { text: 'Markdown Examples', link: '/markdown-examples' },
-    // //     //   { text: 'Runtime API Examples', link: '/api-examples' }
-    // //     ]
-    // //   }
     ],
 
     socialLinks: [
@@ -136,7 +131,7 @@ export default defineConfig({
     // },
 
     // darkModeSwitchLabel: 'Lumen',
-    // sidebarMenuLabel: 'Temas',
+    sidebarMenuLabel: 'Menu',
     // returnToTopLabel: 'Top',
     externalLinkIcon: true,
 

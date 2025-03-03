@@ -2,7 +2,7 @@
 import MunicipiosPorEstado from '../components/MunicipiosPorEstado.vue';
 </script>
 
-:::info Território
+:::info Municípios por Estado
 <!-- <br /> -->
 <MunicipiosPorEstado />
 :::
