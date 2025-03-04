@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   title: "Yackomus",
   titleTemplate: 'Yackomus', // costum sufix
-  description: "Yackomus - Personal Website",
+  description: "Uma tentativa de integrar para entender.",
   head:[
     ['link', {rel: 'icon', href: '/favicon.png'}],
     [

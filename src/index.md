@@ -11,10 +11,10 @@ hero:
   tagline:
   image:
     src: /yackomus-subject.png
-  actions:
-    - theme: brand
-      text: 9º Círculo 
-      link: 'https://www.blog.yackomus.com/'
+  # actions:
+  #   - theme: brand
+  #     text: 9º Círculo 
+  #     link: 'https://www.blog.yackomus.com/'
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
