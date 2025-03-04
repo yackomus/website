@@ -12,6 +12,8 @@ import BolsaFamiliaBrasilMensal from '../components/BolsaFamiliaBrasilMensal.vue
 import BolsaFamiliaBrasilAnual from '../components/BolsaFamiliaBrasilAnual.vue';
 </script>
 
+# Bolsa Família
+
 :::info Bolsa Família ‣ Série Mensal
 <!-- <br /> -->
 <BolsaFamiliaBrasilMensal />

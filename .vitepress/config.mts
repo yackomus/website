@@ -6,7 +6,21 @@ export default defineConfig({
   title: "Yackomus",
   titleTemplate: 'Yackomus', // costum sufix
   description: "Yackomus - Personal Website",
-  head:[['link', {rel: 'icon', href: '/favicon.png'}]],
+  head:[
+    ['link', {rel: 'icon', href: '/favicon.png'}],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-JL3G0RBEG0' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JL3G0RBEG0');`
+    ]
+  ],
   lang: 'pt-BR',
   srcDir: 'src',
   outDir: './docs',
@@ -32,7 +46,7 @@ export default defineConfig({
           {text:'População',link: '/atlas',activeMatch: '/config/'},
           {text:'Território',link: '/territorio',activeMatch: '/config/'},
           {text:'Programas Sociais',link: '/cronus',activeMatch: '/config/'},
-          {text:'9º Círculo',link: '/mamon',activeMatch: '/config/'},
+          {text:'Brasília',link: '/mamon',activeMatch: '/config/'},
         ],
         
     
@@ -47,22 +61,22 @@ export default defineConfig({
         // collapsed: false,
         items: [
           { 
-            text: 'Brasil',
-            link: '/atlas',
-            // items: [
-            //   { text: 'Minas Gerais', link: '/atlas' },
-            // ],
+            // text: 'Brasil',
+            // link: '/atlas',
+            items: [
+              { text: 'Brasil', link: '/atlas' },
+            ],
           },
         ]
       },
 
       {
-        text: 'Território',
+        text: 'Municípios',
         // collapsed: false,
         // link: '/atlas',
         items: [
           { 
-            text: 'Municípios',
+            // text: 'Municípios',
             // link: '/territorio',
             items: [
               { text: 'Brasil', link: '/territorio' },
@@ -72,11 +86,11 @@ export default defineConfig({
       },
 
       {
-        text: 'Programas Sociais',
+        text: 'Bolsa Família',
         // link: '/atlas',
         items: [
           { 
-            text: 'Bolsa Família',
+            // text: 'Bolsa Família',
             // link: '/territorio',
             items: [
               { text: 'Brasil', link: '/cronus' },
@@ -86,11 +100,11 @@ export default defineConfig({
       },
 
       {
-        text: '9º Círculo',
+        text: 'Deputados Federais',
         // link: '/atlas',
         items: [
           { 
-            text: 'Deputados Federais',
+            // text: 'Deputados Federais',
             // link: '/territorio',
             items: [
               { text: 'Brasil', link: '/mamon' },
