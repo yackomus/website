@@ -7,8 +7,8 @@ markdownStyles: true
 
 hero:
   name: Yackomus
-  text: Uma tentativa de integrar para entender
-  tagline:
+  text: 
+  tagline: Coleções de dados e informações extraídas de Portais Oficiais do Governo Federal, Institutos e Instituições Oficiais, Câmara Federal e Senado Federal.
   image:
     src: /yackomus-subject.png
   # actions:

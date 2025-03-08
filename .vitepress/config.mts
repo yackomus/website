@@ -5,9 +5,9 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   title: "Yackomus",
   titleTemplate: 'Yackomus', // costum sufix
-  description: "Uma tentativa de integrar para entender.",
+  description: "Coleções de dados extraídos de portais oficiais do Governo Federal, Institutos e Instituições Oficiais, Câmara Federal e Senado Federal.",
   head:[
-    ['link', {rel: 'icon', href: '/favicon.png'}],
+    // ['link', {rel: 'icon', href: '/favicon.png'}],
     [
       'script',
       { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-JL3G0RBEG0' }
@@ -28,88 +28,86 @@ export default defineConfig({
   lastUpdated: false,
   cleanUrls: true,
   themeConfig: {
-    logo: '/yackomus-subject.png',
+    // logo: '/yackomus-subject.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       // { text: 'Sobre', link: '/sobre'},
+
       { 
-        text: 'Blog', 
-        link: 'https://www.blog.yackomus.com/', 
+        text: 'Home', 
+        link: '/', 
         target: '_self', 
         activeMatch: '/config/'
     
       },
 
       { 
-        text: 'Dados', 
-        items: [
-          {text:'População',link: '/atlas',activeMatch: '/config/'},
-          {text:'Território',link: '/territorio',activeMatch: '/config/'},
-          {text:'Programas Sociais',link: '/cronus',activeMatch: '/config/'},
-          {text:'Brasília',link: '/mamon',activeMatch: '/config/'},
-        ],
-        
+        text: 'Blog', 
+        link: 'https://www.blog.yackomus.com/', 
+        // target: '_self', 
+        activeMatch: '/config/'
     
+      },
+
+      { 
+        text: 'Informações', 
+        items: [
+          {text:'População',link: '/info/populacao',activeMatch: '/config/'},
+          {text:'Território',link: '/info/municipios',activeMatch: '/config/'},
+          {text:'Programas Sociais',link: '/info/bolsa-familia',activeMatch: '/config/'},
+          {text:'Brasília',link: '/info/deputados-federais',activeMatch: '/config/'},
+        ],    
       },
 
     ],
 
     sidebar: [
-      {
-        text: 'População',
-        // link: '/atlas',
-        // collapsed: false,
-        items: [
-          { 
-            // text: 'Brasil',
-            // link: '/atlas',
-            items: [
-              { text: 'Brasil', link: '/atlas' },
-            ],
-          },
-        ]
-      },
+
+      // {
+      //   text: 'Blog',
+      //   link: 'https://www.blog.yackomus.com/', 
+      // },
 
       {
-        text: 'Municípios',
-        // collapsed: false,
+        text: 'Informações',
         // link: '/atlas',
+        collapsed: false,
         items: [
           { 
-            // text: 'Municípios',
-            // link: '/territorio',
-            items: [
-              { text: 'Brasil', link: '/territorio' },
-            ],
+            text: 'População',
+            link: '/info/populacao',
+            // items: [
+            //   { text: 'Brasil', link: '/atlas' },
+            // ],
           },
-        ]
-      },
 
-      {
-        text: 'Bolsa Família',
-        // link: '/atlas',
-        items: [
           { 
-            // text: 'Bolsa Família',
-            // link: '/territorio',
+            text: 'Território',
+            collapsed:true,
+            // link: '/info/municipios',
             items: [
-              { text: 'Brasil', link: '/cronus' },
+              { text: 'Municípios', link: '/info/municipios' },
             ],
           },
-        ]
-      },
 
-      {
-        text: 'Deputados Federais',
-        // link: '/atlas',
-        items: [
           { 
-            // text: 'Deputados Federais',
-            // link: '/territorio',
+            text: 'Programas Sociais',
+            collapsed:true,
+            // link: '/info/bolsa-familia',
             items: [
-              { text: 'Brasil', link: '/mamon' },
+              { text: 'Bolsa Família', link: '/info/bolsa-familia' },
             ],
           },
+
+          { 
+            text: 'Brasília',
+            collapsed:true,
+            // link: '/info/deputados-federais',
+            items: [
+              { text: 'Deputados Federais', link: '/info/deputados-federais' },
+            ],
+          },
+
         ]
       },
 
@@ -117,14 +115,13 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'instagram', link: 'https://instagram.com/yackomus' },
-      { icon: 'youtube', link: 'https://youtube.com/yackomus' },
-      { icon: 'x', link: 'https://x.com/yackomus' },
-      
+      { icon: 'youtube', link: 'https://youtube.com/@yackomus' },
+      { icon: 'x', link: 'https://x.com/yackomus' },      
     ],
 
     footer: {
       // message: 'MIT License',
-      copyright: 'Copyright © 2025 Thiago Oliveira',
+      copyright: 'Copyright © 2025 Yackomus',
     },
 
     // lastUpdated: {
