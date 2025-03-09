@@ -36,6 +36,40 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
 
       marks: [
 
+      Plot.ruleY([110.9 * 1e9], {
+        x1: new Date(2020, 1, 1),
+        x2: new Date(2024, 1, 1),
+        stroke: 'red',
+        strokeWidth: 1.2
+      }),
+
+      Plot.text(['📚 Ministério da Educação em 2024: 111B →'], {
+        x: new Date(2019, 1, 1),
+        y: [110.9 * 1e9],
+        // fill: 'red',
+        textAnchor: 'end',
+        // fontWeight: 'bolder',
+        fontSize: 14
+      }),
+
+      Plot.text(['Bolsa Família 2024:      '], {
+        x: new Date(2024, 1, 1),
+        y: [168 * 1e9],
+        // fill: '#e7298a',
+        textAnchor: 'end',
+        // fontWeight: 'bolder',
+        fontSize: 14
+       }),
+
+       Plot.text(['163B'], {
+        x: new Date(2024, 1, 1),
+        y: [168 * 1e9],
+        fill: '#e7298a',
+        textAnchor: 'center',
+        fontWeight: 'bolder',
+        fontSize: 14
+      }),
+
       Plot.barY(datasource, 
         Plot.groupX(
           {y:'sum'},
