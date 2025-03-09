@@ -43,22 +43,22 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
         strokeWidth: 1.2
       }),
 
-      Plot.text(['📚 Ministério da Educação em 2024: 111B →'], {
+      Plot.text(['MANUTENÇÃO E DESENVOLVIMENTO DO ENSINO 2024: 111B'], {
         x: new Date(2019, 1, 1),
         y: [110.9 * 1e9],
         // fill: 'red',
         textAnchor: 'end',
         // fontWeight: 'bolder',
-        fontSize: 14
+        fontSize: 12
       }),
 
-      Plot.text(['Bolsa Família 2024:      '], {
+      Plot.text(['BOLSA FAMÍLIA 2024:      '], {
         x: new Date(2024, 1, 1),
         y: [168 * 1e9],
         // fill: '#e7298a',
         textAnchor: 'end',
         // fontWeight: 'bolder',
-        fontSize: 14
+        fontSize: 12
        }),
 
        Plot.text(['163B'], {
@@ -67,7 +67,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
         fill: '#e7298a',
         textAnchor: 'center',
         fontWeight: 'bolder',
-        fontSize: 14
+        fontSize: 12
       }),
 
       Plot.barY(datasource, 

@@ -48,13 +48,13 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
         strokeWidth: 1.2
       }),
 
-    Plot.text(['🎲 Bolsa Família gasto em apostas online em AGO/2024: 3B → '], {
+    Plot.text(['BOLSA FAMÍLIA EM APOSTAS ONLINE AGO/2024: 3B'], {
       x: new Date(2019, 9, 1),
       y: [3 * 1e9],
       // fill: 'red',
       textAnchor: 'end',
       // fontWeight: 'bolder',
-      fontSize: 14
+      fontSize: 12
      }),
 
       Plot.areaY(datasource, {
