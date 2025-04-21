@@ -42,9 +42,9 @@ export default defineConfig({
       },
 
       { 
-        text: 'Blog', 
-        link: 'https://www.blog.yackomus.com/', 
-        // target: '_self', 
+        text: 'Sobre', 
+        link: '/sobre/', 
+        target: '_self', 
         activeMatch: '/config/'
     
       },
@@ -57,6 +57,14 @@ export default defineConfig({
           {text:'Programas Sociais',link: '/info/bolsa-familia',activeMatch: '/config/'},
           {text:'Brasília',link: '/info/deputados-federais',activeMatch: '/config/'},
         ],    
+      },
+
+      { 
+        text: 'Blog', 
+        link: 'https://www.blog.yackomus.com/', 
+        // target: '_self', 
+        activeMatch: '/config/'
+    
       },
 
     ],

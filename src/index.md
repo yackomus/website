@@ -8,7 +8,7 @@ markdownStyles: true
 hero:
   name: Yackomus
   text: 
-  tagline: Coleções de dados e informações extraídas de Portais Oficiais do Governo Federal, Institutos e Instituições Oficiais, Câmara Federal e Senado Federal.
+  tagline: The first principle is that you must not fool yourself, and you are the easiest person to fool.<br/>⏤ Richard Feynman
   image:
     src: /yackomus-subject.png
   # actions:
