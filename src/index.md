@@ -8,7 +8,7 @@ markdownStyles: true
 hero:
   name: Yackomus
   text: 
-  tagline: The first principle is that you must not fool yourself, and you are the easiest person to fool.<br/>⏤ Richard Feynman
+  tagline: O tolo se vê sábio, enquanto o sábio se reconhece tolo.<br/>⏤ W. Shakespeare
   image:
     src: /yackomus-subject.png
   # actions:
