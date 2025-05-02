@@ -8,7 +8,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
 <template>
   <PlotFigure
     :options="{
-      // height: 300,
+      height: 600,
       // width:1200,
       marginLeft:42,
       marginRight: 30,
@@ -24,7 +24,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
       },
 
       y : {
-        label:'Pagamentos do Bolsa Família, em bilhões de reais por mês',
+        label:'Bilhões de reais por mês',
         // tickFormat: d3.format('.2s'), 
         type: 'linear',
         grid: true,
@@ -35,7 +35,8 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
       color: {
         legend: true,
         // range: ['#ffed6f', '#80b1d3', '#fb8072'], // set3
-        range: ['#e6ab02', '#7570b3', '#e7298a'], // dark2
+        // range: ['#e6ab02', '#7570b3', '#e7298a'], // dark2
+        range: ['#22D3EE', '#F59E0B', '#F43F5E'], // instagram-post
         domain: ['Bolsa Família', 'Auxílio Brasil', 'Novo Bolsa Família'],
       },
 

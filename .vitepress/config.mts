@@ -132,13 +132,13 @@ export default defineConfig({
       copyright: 'Copyright © 2025 Yackomus',
     },
 
-    // lastUpdated: {
-    //   // text: 'Atualizado',
-    //   formatOptions: {
-    //     dateStyle: 'full',
-    //     timeStyle: 'medium'
-    //   }
-    // },
+    lastUpdated: {
+      // text: 'Atualizado',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
 
     docFooter: {
       prev: 'Previous',

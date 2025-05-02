@@ -8,7 +8,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
 <template>
   <PlotFigure
     :options="{
-      // height: 300,
+      height: 600,
       // width:1200,
       marginLeft:42,
       marginRight: 30,
@@ -21,7 +21,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
       },
 
       y : {
-        label:'Pagamentos do Bolsa Família, em bilhões de reais por ano',
+        label:'Bilhões de reais por ano',
         type: 'linear',
         grid:true,
         labelOffset:40,
@@ -30,7 +30,8 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
 
       color: {
         legend: true,
-        range: ['#e6ab02', '#7570b3', '#e7298a'], // dark2
+        // range: ['#e6ab02', '#7570b3', '#e7298a'], // dark2
+        range: ['#22D3EE', '#F59E0B', '#F43F5E'], // instagram-post
         domain: ['Bolsa Família', 'Auxílio Brasil', 'Novo Bolsa Família'],
       },
 
@@ -64,7 +65,7 @@ import datasource from "../data/p-bolsa-familia-brasil-mensal.ts";
        Plot.text(['163B'], {
         x: new Date(2024, 1, 1),
         y: [168 * 1e9],
-        fill: '#e7298a',
+        fill: '#F43F5E',
         textAnchor: 'center',
         fontWeight: 'bolder',
         fontSize: 12
