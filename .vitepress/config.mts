@@ -41,13 +41,13 @@ export default defineConfig({
     
       },
 
-      { 
-        text: 'Sobre', 
-        link: '/sobre/', 
-        target: '_self', 
-        activeMatch: '/config/'
+      // { 
+      //   text: 'Sobre', 
+      //   link: '/sobre/', 
+      //   target: '_self', 
+      //   activeMatch: '/config/'
     
-      },
+      // },
 
       { 
         text: 'Informações', 
@@ -59,13 +59,13 @@ export default defineConfig({
         ],    
       },
 
-      { 
-        text: 'Blog', 
-        link: 'https://www.blog.yackomus.com/', 
-        // target: '_self', 
-        activeMatch: '/config/'
+      // { 
+      //   text: 'Blog', 
+      //   link: 'https://www.blog.yackomus.com/', 
+      //   // target: '_self', 
+      //   activeMatch: '/config/'
     
-      },
+      // },
 
     ],
 

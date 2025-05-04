@@ -1,6 +1,3 @@
-![Sandro Botticelli: La Calumnia de Apeles](/../public/Sandro_Botticelli_La_calumnia_de_Apeles.jpg)
-*La Calumnia de Apeles, por Sandro Botticelli*
-
 Transcrevi aqui uma coletânea de frases que anotei ao longo do tempo, sendo as de Louis Lavelle minhas mais recentes leituras, as de Guimarães Rosa representando o meu autor brasileiro favorito, e uma miscelânea de outras que ainda irei complementar à medida que o tempo permitir.
 
 Registros despretensiosos, mas que acabaram por me acompanhar por tempo suficiente para que eu assuma que tiveram alguma influência sobre mim.
