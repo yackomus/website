@@ -33,17 +33,15 @@ hero:
 #     title: Hephaestus
 #     details: Integração do que foi previamente organizado nas análises dos blocos anteriores
 --- -->
-# Pequena Reflexão ...
-
 :::tip La Calumnia de Apeles, por Sandro Botticelli
 ![Sandro Botticelli: La Calumnia de Apeles](/../public/Sandro_Botticelli_La_calumnia_de_Apeles.jpg)
 :::
 
-O bom senso nos diz que o saber por "ouvir dizer" deve ser tratado com muita cautela. Mas seria possível rastrear aaté a origem a informação ou o conhecimento que chamamos de nosso? Lembramo-nos de quem nos apresentou tal perspectiva? Que experiência nos fez acreditar que é assim — ou assado? Temos certeza de alguma coisa?
+O bom senso nos alerta que o "saber por ouvir dizer" deve sempre ser tratado com muita cautela. Mas seria possível rastrear até a origem a informação ou o conhecimento que chamamos de nosso? Recordar quem nos apresentou tal ou qual perspectiva? Que experiência nos fez acreditar que é assim — ou assado? Ter a certeza a respeito de algum estado de coisas?
 
-A busca por essa certeza, que tenta tocar as causas primeiras do pensamento, justificaria o esforço? Seria esse o esforço da ciência — fragmentar o todo em partes, registrando pequenas constatações sobre aspectos isolados? Mas ao quebrar, não se perde também a coesão que se buscava entender?
+A busca por se aproximar dessa certeza, que tenta tocar as causas primeiras do pensamento, justificaria o esforço requerido? Seria esse o esforço da ciência — fragmentar o todo em partes, registrando pequenas observações sobre aspectos isolados? Mas ao quebrar, não se perde também a coesão que se buscava entender?
 
-O indivíduo que escolhe permanecer nesse esforço aceita jamais encontrar a certeza. Aceita que o tempo e a agitação da realidade irão lhe proporcionar apenas dúvidas mais abrangentes e sofisticadas.
+O indivíduo que escolhe empreender esse esforço aceita jamais encontrar a certeza. Aceita que o tempo e a agitação da realidade irão somente graduar suas incertezas para estados mais sofisticados e mais abrangentes.
 
 ---
 
