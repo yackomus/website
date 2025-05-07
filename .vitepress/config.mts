@@ -25,11 +25,17 @@ export default defineConfig({
   srcDir: 'src',
   outDir: './docs',
   base: '/',
-  lastUpdated: false,
+  lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
     // logo: '/yackomus-subject.png',
     // https://vitepress.dev/reference/default-theme-config
+
+    // editLink: {
+    //   pattern: 'https://github.com/yackomus/website/edit/main/:path',
+    //   text: 'Edit this page on GitHub'
+    // },
+
     nav: [
       // { text: 'Sobre', link: '/sobre'},
 
@@ -136,7 +142,7 @@ export default defineConfig({
       // text: 'Atualizado',
       formatOptions: {
         dateStyle: 'full',
-        timeStyle: 'medium'
+        timeStyle: 'short'
       }
     },
 

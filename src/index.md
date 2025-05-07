@@ -39,7 +39,7 @@ hero:
 
 O bom senso nos alerta que o "saber por ouvir dizer" deve sempre ser tratado com muita cautela. Mas seria possível rastrear até a origem a informação ou o conhecimento que chamamos de nosso? Recordar quem nos apresentou tal ou qual perspectiva? Que experiência nos fez acreditar que é assim — ou assado? Ter a certeza a respeito de algum estado de coisas?
 
-A busca por se aproximar dessa certeza, que tenta tocar as causas primeiras do pensamento, justificaria o esforço requerido? Seria esse o esforço da ciência — fragmentar o todo em partes, registrando pequenas observações sobre aspectos isolados? Mas ao quebrar, não se perde também a coesão que se buscava entender?
+A busca por se aproximar dessa certeza, que tenta tocar as causas primeiras do pensamento, justificaria o esforço requerido? Seria esse o esforço da Ciência — fragmentar o todo em partes, registrando pequenas observações sobre aspectos isolados? Mas ao quebrar, não se perde também a coesão que se buscava entender?
 
 O indivíduo que escolhe empreender esse esforço aceita jamais encontrar a certeza. Aceita que o tempo e a agitação da realidade irão somente graduar suas incertezas para estados mais sofisticados e mais abrangentes.
 
