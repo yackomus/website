@@ -17,6 +17,8 @@ Hoje, Hugo Motta, eleito aos 21 anos sem experiência de vida real, preside a C�
 
 Heranças políticas, corrupção familiar e a perpetuação do poder que apodreceram a democracia do estado, ainda que se diga que ela exista sob o disfarce das eleições.
 
+A dinsatia política de um grupo familiar, que herda, concentra e exerce poder de maneira perpétua, bloqueando a renovação política e social, alimentando redes de proteção mútua entre parentes e aliados, enfraquecendo os mecanismos de fiscalização, elevando o risco de corrupção sistêmica, criando uma cultura política paternalista, e dando o terrível exemplo para que seja reproduzido em escala nacional.
+
 A quem entregar a responsabilidade pelas sequelas que agora transbordam para além do estado da Paraíba?
 
 ## Diagnóstico
@@ -61,7 +63,7 @@ Se ele era ainda um garoto sem a história e o trabalho necessários para conqui
 - Seu **sogro** e sua **sogra**, que são réus em processos judiciais por fraude em licitação em um esquema que teria desviado quase 5 milhões?
 - Sua **irmã** Olívia Motta, que está definida como herdeira da posição de deputada estadual após o 7º mandato de sua avó, que irá completar 85 anos em 2025?
 
-Essa listagem poderia continuar, porém ela por si já demonstra a dinastia política desse grupo familiar, que herda, concentra e exerce poder de maneira perpétua, bloqueando a renovação política e social, alimentando redes de proteção mútua entre parentes a aliados, enfraquecendo os mecanismos de fiscalização, elevando o risco de corrupção sistêmica, criando uma cultura política paternalista, e dando o terrível exemplo para que seja reproduzido em escala nacional.
+Essa listagem poderia continuar, porém ela por si já demonstra a dinastia política desse grupo familiar, que herda, concentra e exerce poder de maneira perpétua, bloqueando a renovação política e social, alimentando redes de proteção mútua entre parentes e aliados, enfraquecendo os mecanismos de fiscalização, elevando o risco de corrupção sistêmica, criando uma cultura política paternalista, e dando o terrível exemplo para que seja reproduzido em escala nacional.
 
 ## País Sequelado
 
