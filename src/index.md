@@ -33,8 +33,8 @@ hero:
 #     title: Hephaestus
 #     details: Integração do que foi previamente organizado nas análises dos blocos anteriores
 --- -->
-:::tip La Calumnia de Apeles, por Sandro Botticelli
-![Sandro Botticelli: La Calumnia de Apeles](/../public/Sandro_Botticelli_La_calumnia_de_Apeles.jpg)
+:::tip La Calumnia de Apeles, by Sandro Botticelli ⏤ 1496
+![Sandro Botticelli](/../public/Sandro_Botticelli_La_calumnia_de_Apeles.jpg)
 :::
 
 O bom senso nos alerta que o "saber por ouvir dizer" deve sempre ser tratado com muita cautela. Mas seria possível rastrear até a origem a informação ou o conhecimento que chamamos de nosso? Recordar quem nos apresentou tal ou qual perspectiva? Que experiência nos fez acreditar que é assim — ou assado? Ter a certeza a respeito de algum estado de coisas?

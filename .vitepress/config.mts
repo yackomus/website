@@ -28,6 +28,9 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // logo: '/yackomus-subject.png',
     // https://vitepress.dev/reference/default-theme-config
 
@@ -62,6 +65,13 @@ export default defineConfig({
           {text:'Território',link: '/info/municipios',activeMatch: '/config/'},
           {text:'Programas Sociais',link: '/info/bolsa-familia',activeMatch: '/config/'},
           {text:'Brasília',link: '/info/deputados-federais',activeMatch: '/config/'},
+        ],    
+      },
+
+      { 
+        text: 'Blog', 
+        items: [
+          {text:'O Poder Hereditário na Paraíba',link: '/blog/o-poder-hereditario-na-paraiba',activeMatch: '/config/'},
         ],    
       },
 
@@ -122,6 +132,21 @@ export default defineConfig({
             ],
           },
 
+        ]
+      },
+
+      {
+        text: 'Blog',
+        // link: '/atlas',
+        collapsed: false,
+        items: [
+          { 
+            text:'O Poder Hereditário na Paraíba',
+            link: '/blog/o-poder-hereditario-na-paraiba'
+            // items: [
+            //   { text: 'Brasil', link: '/atlas' },
+            // ],
+          },
         ]
       },
 
