@@ -17,7 +17,7 @@ Hoje, Hugo Motta, eleito aos 21 anos sem experiência de vida real, preside a C�
 
 Heranças políticas, corrupção familiar e a perpetuação do poder que apodreceram a democracia do estado, ainda que se diga que ela exista sob o disfarce das eleições.
 
-A dinsatia política de um grupo familiar, que herda, concentra e exerce poder de maneira perpétua, bloqueando a renovação política e social, alimentando redes de proteção mútua entre parentes e aliados, enfraquecendo os mecanismos de fiscalização, elevando o risco de corrupção sistêmica, criando uma cultura política paternalista, e dando o terrível exemplo para que seja reproduzido em escala nacional.
+A dinastia de um grupo familiar, que herda, concentra e exerce poder de maneira perpétua, bloqueando a renovação política e social, alimentando redes de proteção mútua entre parentes e aliados, enfraquecendo os mecanismos de fiscalização, elevando o risco de corrupção sistêmica, criando uma cultura política paternalista, e dando o terrível exemplo para que seja reproduzido em escala nacional.
 
 A quem entregar a responsabilidade pelas sequelas que agora transbordam para além do estado da Paraíba?
 
