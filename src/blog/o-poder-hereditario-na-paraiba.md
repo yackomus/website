@@ -6,9 +6,7 @@ gravatar: e0696456a74ae33a0d5cc8961ee7c122b29fc317a4de601d2e34afcec822523d
 twitter: '@yackomus'
 --- -->
 
-# O Poder Hereditário na Paraíba: Sete Décadas de Controle
-
-:::info The Apotheosis of Henry IV and the Proclamation of the Regency of Marie de Médicis, by Peter Paul Rubens ⏤ 1610
+:::info Painting by Peter Paul Rubens ⏤ 1610
 ![Peter Paul Rubens](/../public/Peter_Paul_Rubens.jpg)
 :::
 
@@ -65,7 +63,7 @@ Se ele era ainda um garoto sem a história e o trabalho necessários para conqui
 
 Essa listagem poderia continuar, porém ela por si já demonstra a dinastia política desse grupo familiar, que herda, concentra e exerce poder de maneira perpétua, bloqueando a renovação política e social, alimentando redes de proteção mútua entre parentes a aliados, enfraquecendo os mecanismos de fiscalização, elevando o risco de corrupção sistêmica, criando uma cultura política paternalista, e dando o terrível exemplo para que seja reproduzido em escala nacional.
 
-## O Sequelado
+## País Sequelado
 
 E as sequelas? E a suma responsabilidade que foi entregue ao calouro, legitimado não por sua história e competência, mas pela influência aparelhada de um sobrenome? A quem deve ser apontada a responsabilidade moral pelo erro?
 

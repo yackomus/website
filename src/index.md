@@ -33,7 +33,7 @@ hero:
 #     title: Hephaestus
 #     details: Integração do que foi previamente organizado nas análises dos blocos anteriores
 --- -->
-:::tip La Calumnia de Apeles, by Sandro Botticelli ⏤ 1496
+:::tip Painting by Sandro Botticelli ⏤ 1496
 ![Sandro Botticelli](/../public/Sandro_Botticelli_La_calumnia_de_Apeles.jpg)
 :::
 
